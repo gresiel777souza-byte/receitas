@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10100e">
+<meta name="description" content="Página de vendas com imagens do site original e checkouts Kiwify configurados.">
+<title>+150 Receitas de Batidas na Garrafa</title>
+<style>
+:root{--bg:#0d0d0c;--panel:#171715;--cream:#fff8eb;--gold:#f4bd35;--pink:#f33370;--muted:#c8c3b9;--green:#39b96b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Arial,Helvetica,sans-serif;line-height:1.55}a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.promo{background:#f02e69;text-align:center;padding:9px 12px;font-weight:900;letter-spacing:.3px}.promo span{color:#fff6a7}.hero{padding:54px 0 44px;background:radial-gradient(ellipse at 80% 15%,#49300e 0,transparent 38%),linear-gradient(135deg,#17130e,#090909 70%)}.eyebrow{display:inline-block;background:#2a2111;color:#ffd66b;border:1px solid #8d6924;border-radius:50px;padding:7px 14px;font-weight:800;font-size:13px}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:35px;align-items:center}.hero h1{font-size:clamp(32px,5vw,56px);line-height:1.04;letter-spacing:-1.5px;margin:18px 0}.hero h1 em{color:var(--gold);font-style:normal}.lead{font-size:18px;color:#e0d9cb;max-width:650px}.checks{padding:0;list-style:none;margin:22px 0}.checks li{margin:9px 0;color:#f8f4eb}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;background:linear-gradient(90deg,#f12e6b,#ff5a7f);color:white;text-decoration:none;border:0;border-radius:9px;padding:16px 22px;font-weight:900;font-size:16px;box-shadow:0 8px 25px #ed28634a;transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.btn.gold{background:linear-gradient(90deg,#e9a91d,#ffd45d);color:#231600;box-shadow:0 8px 25px #e8a51c38}.access{font-size:13px;color:#c9c2b5;margin-top:12px}.mock{width:100%;max-height:440px;object-fit:contain;filter:drop-shadow(0 18px 35px #0009)}section{padding:62px 0}.section-title{text-align:center;font-size:clamp(26px,4vw,38px);line-height:1.15;margin:0 auto 12px;max-width:850px}.section-sub{text-align:center;color:var(--muted);max-width:720px;margin:0 auto 32px}.gallery{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid #ffffff20;transition:.2s}.gallery img:hover{transform:scale(1.025)}.center{text-align:center;margin-top:28px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px}.step,.feature,.audience,.bonus{background:var(--panel);border:1px solid #ffffff16;border-radius:14px;padding:20px}.step .ico,.feature .ico,.audience .ico{font-size:27px}.step h3,.feature h3{font-size:16px;margin:8px 0}.step p,.feature p,.audience p,.bonus p{font-size:14px;color:var(--muted);margin:0}.features{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:28px}.feature h3{font-size:19px}.feature ul{padding-left:18px;color:#ddd;font-size:14px}.audiences{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:28px}.audience{display:flex;gap:13px;align-items:flex-start}.audience strong{display:block;font-size:15px}.bonus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}.bonus{display:grid;grid-template-columns:1fr 1fr;gap:15px;align-items:center}.bonus img{width:100%;border-radius:9px}.bonus small{color:var(--pink);font-weight:900}.payment{text-align:center;background:#17140e;border:1px solid #70551d;border-radius:12px;padding:18px;margin:28px auto;max-width:700px;color:#e9dfca}.payment strong{color:#ffd16a}.pricing{background:linear-gradient(180deg,#17130d,#0d0d0c)}.plans{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;max-width:920px;margin:30px auto 0;align-items:stretch}.plan{position:relative;background:#f8f2e7;color:#241b11;border-radius:17px;padding:26px;border:2px solid #e8b637;box-shadow:0 14px 35px #0005}.plan.basic{background:#1a1a18;color:#fff;border:1px solid #666}.tag{position:absolute;right:16px;top:-13px;background:#eab22c;color:#211707;padding:5px 12px;border-radius:30px;font-size:12px;font-weight:900}.plan h3{font-size:24px;margin:10px 0}.plan ul{padding-left:20px}.plan li{margin:7px 0}.price-old{text-decoration:line-through;color:#8b8275}.price{font-size:42px;font-weight:1000;color:#dc2e65;line-height:1.1}.basic .price{color:#ffd05b}.plan .btn{width:100%;margin-top:14px}.guarantee{text-align:center;color:#c9c1b4;font-size:13px;margin-top:14px}.faq{max-width:850px;margin:28px auto 0}.faq details{background:var(--panel);border:1px solid #ffffff1b;border-radius:10px;margin:10px 0;padding:16px 18px}.faq summary{cursor:pointer;font-weight:800}.faq details p{color:var(--muted);margin-bottom:0}.final-cta{text-align:center;background:radial-gradient(ellipse at center,#43230e,#0d0d0c 68%)}.final-cta h2{font-size:clamp(26px,4vw,40px);max-width:800px;margin:0 auto 15px}.footer{text-align:center;color:#8e887e;font-size:12px;padding:26px 10px;border-top:1px solid #ffffff16}.float{position:fixed;right:18px;bottom:18px;z-index:5;background:#25b965;color:#fff;text-decoration:none;font-size:24px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;box-shadow:0 5px 20px #0008}.timer{font-variant-numeric:tabular-nums}@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.mock{max-height:320px}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:220px}.steps{grid-template-columns:repeat(2,1fr)}.features,.bonus-grid,.plans{grid-template-columns:1fr}.audiences{grid-template-columns:1fr 1fr}.bonus{grid-template-columns:1fr 1fr}}@media(max-width:480px){.hero{padding:35px 0}.hero h1{font-size:35px}.lead{font-size:16px}.gallery img{height:190px}.steps{grid-template-columns:1fr}.audiences{grid-template-columns:1fr}.bonus{grid-template-columns:1fr}.plan{padding:22px}.btn{width:100%;font-size:14px}}
+</style>
+</head>
+<body>
+<div class="promo">⏰ PROMOÇÃO ENCERRA EM: <span class="timer" id="timer">15:00</span></div>
+<header class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="eyebrow">🍹 Tendência que está explodindo agora</div>
+   <p style="color:#f6c94c;font-weight:900;margin:16px 0 0">+150 Receitas Prontas para Vender</p>
+   <h1>+150 RECEITAS DE BATIDAS NA GARRAFA PARA <em>FATURAR ATÉ R$3.000 POR MÊS</em> MESMO COMEÇANDO DO ZERO!</h1>
+   <p class="lead">Receitas de batidas prontas para vender — ingredientes simples, produção rápida, alto valor percebido e margem de lucro que vai te surpreender!</p>
+   <ul class="checks"><li>✔ Qualquer pessoa consegue fazer</li><li>✔ Sem cozinha profissional ou equipamentos caros</li><li>✔ Receitas prontas, testadas e com custo baixo</li><li>✔ Perfeito para vender no WhatsApp, rua ou delivery</li></ul>
+   <a class="btn" href="#ofertas">🍹 QUERO AS RECEITAS AGORA</a>
+   <div class="access">📩 Acesso imediato direto no e-mail e no WhatsApp</div>
+  </div>
+  <img loading="eager" decoding="async" class="mock" src="https://150batidasnagarrafa1.netlify.app/ChatGPT_Image_21_de_abr._de_2026_22_40_55.png" alt="Kit digital com 150 receitas de batidas na garrafa">
+ </div>
+</header>
+<main>
+<section>
+ <div class="wrap">
+  <h2 class="section-title">Veja o que estão fazendo — viralizando e vendendo muito:</h2>
+  <p class="section-sub">Conheça algumas ideias de batidas na garrafa que você poderá preparar.</p>
+  <div class="gallery">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1391.PNG" alt="Batida amarela de maracujá na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1392.PNG" alt="Batida de maracujá">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1393.PNG" alt="Batidas rosa e amarela">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1394.PNG" alt="Garrafas de batida cremosa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1395.PNG" alt="Batida rosa de morango">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1396.PNG" alt="Duas batidas coloridas">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1397.PNG" alt="Batidas em garrafas">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1398.PNG" alt="Batidas de chocolate">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1399.PNG" alt="Três garrafas de batida">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1400.PNG" alt="Três garrafas de açaí">
+  </div>
+  <div class="center"><a class="btn" href="#ofertas">🛍️ QUERO AS RECEITAS!</a></div>
+ </div>
+</section>
+<section style="background:#141411">
+ <div class="wrap">
+  <h2 class="section-title">Funciona assim — simples que até dá medo:</h2>
+  <div class="steps">
+   <article class="step"><div class="ico">📩</div><h3>Você recebe o acesso</h3><p>Você recebe o acesso no e-mail e WhatsApp.</p></article>
+   <article class="step"><div class="ico">📖</div><h3>Escolhe a receita</h3><p>Escolhe a receita que quer fazer entre +150 opções.</p></article>
+   <article class="step"><div class="ico">🛒</div><h3>Compra os ingredientes</h3><p>Compra os ingredientes simples no mercado perto de casa.</p></article>
+   <article class="step"><div class="ico">🍹</div><h3>Prepara em casa</h3><p>Prepara em casa e enche as garrafinhas.</p></article>
+   <article class="step"><div class="ico">💰</div><h3>Vende e lucra</h3><p>Vende no WhatsApp, delivery ou na porta de casa.</p></article>
+  </div>
+ </div>
+</section>
+<section>
+ <div class="wrap">
+  <h2 class="section-title">Muito mais que receitas — é a sua renda extra começando agora</h2>
+  <div class="features">
+   <article class="feature"><div class="ico">⚡</div><h3>Pronto para vender hoje, mesmo sem experiência</h3><p>Você não precisa saber cozinhar bem. Se sabe seguir uma receita, já consegue produzir e vender.</p></article>
+   <article class="feature"><div class="ico">💸</div><h3>Margem de lucro alta com ingredientes baratos</h3><p>Cada garrafa custa pouco para produzir e pode ser vendida por 3x ou 4x o valor. A conta fecha fácil.</p><ul><li>Custo baixo de produção</li><li>Alto valor percebido pelo cliente</li><li>Fácil de escalar as vendas</li></ul></article>
+  </div>
+  <div class="center"><a class="btn" href="#ofertas">🍹 QUERO AS +150 RECEITAS DE BATIDAS</a></div>
+ </div>
+</section>
+<section style="background:#141411">
+ <div class="wrap">
+  <h2 class="section-title">Esse produto foi feito exatamente para você se...</h2>
+  <div class="audiences">
+   <article class="audience"><span class="ico">💸</span><div><strong>Precisa de renda extra</strong><p>e não sabe por onde começar.</p></div></article>
+   <article class="audience"><span class="ico">🏠</span><div><strong>Quer trabalhar de casa</strong><p>com algo que vende de verdade.</p></div></article>
+   <article class="audience"><span class="ico">📱</span><div><strong>Quer vender pelo WhatsApp</strong><p>ou Reels sem precisar de loja.</p></div></article>
+   <article class="audience"><span class="ico">⏱️</span><div><strong>Não tem tempo a perder</strong><p>e precisa de algo pronto para começar.</p></div></article>
+   <article class="audience"><span class="ico">🔰</span><div><strong>Nunca vendeu nada antes</strong><p>mas quer mudar isso agora.</p></div></article>
+   <article class="audience"><span class="ico">📦</span><div><strong>Já vende alguma coisa</strong><p>e quer adicionar batidas no cardápio.</p></div></article>
+  </div>
+ </div>
+</section>
+<section>
+ <div class="wrap">
+  <h2 class="section-title">Batidas lindas, fáceis de fazer e com altíssimo valor percebido:</h2>
+  <div class="gallery">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1391.PNG" alt="Batida na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1392.PNG" alt="Batida na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1393.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1394.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1395.PNG" alt="Batida na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1396.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1397.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1398.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1399.PNG" alt="Batidas na garrafa">
+   <img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/img/IMG_1400.PNG" alt="Batidas na garrafa">
+  </div>
+  <div class="center"><a class="btn" href="#ofertas">🌟 QUERO TUDO ISSO!</a></div>
+ </div>
+</section>
+<section style="background:#141411">
+ <div class="wrap">
+  <h2 class="section-title">🎁 E ainda tem BÔNUS!</h2>
+  <div class="bonus-grid">
+   <article class="bonus"><div><small>BÔNUS 1</small><h3>50 Receitas Alcoólicas de Batidas na Garrafa</h3></div><img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/imgs/ChatGPT%20Image%2028%20de%20abr.%20de%202026%2C%2023_36_30.png" alt="Bônus 50 receitas alcoólicas"></article>
+   <article class="bonus"><div><small>BÔNUS 2</small><h3>Tabela de Precificação — Quanto Cobrar em Cada Receita</h3></div><img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/imgs/ChatGPT_Image_22_de_abr._de_2026%2C_00_03_02.png" alt="Tabela de precificação"></article>
+   <article class="bonus"><div><small>BÔNUS 3</small><h3>✅ Roteiro Pronto: Como Anunciar no WhatsApp e Fechar Vendas</h3></div><img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/imgs/ChatGPT_Image_21_de_abr._de_2026_23_51_14.png" alt="Roteiro de vendas pelo WhatsApp"></article>
+   <article class="bonus"><div><small>BÔNUS 4</small><h3>Videoaula: Como Embalar e Apresentar para Vender Mais</h3></div><img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/imgs/ChatGPT_Image_21_de_abr._de_2026_23_54_07.png" alt="Videoaula de embalagem"></article>
+  </div>
+  <div class="payment">🔒 <strong>PAGAMENTO 100% SEGURO</strong><br>O Pix será identificado no nome de <strong>RUAN MIGUEL MORAIS DA SILVA</strong>, responsável financeiro da Cozinha Anabe.</div>
+ </div>
+</section>
+<section class="pricing" id="ofertas">
+ <div class="wrap">
+  <h2 class="section-title">Escolha como quer começar hoje:</h2>
+  <div class="plans">
+   <article class="plan"><span class="tag">⭐ MAIS VENDIDO</span><img loading="eager" decoding="async" src="https://150batidasnagarrafa1.netlify.app/ChatGPT_Image_21_de_abr._de_2026_22_40_55.png" alt="Kit completo 150 receitas" style="width:100%;max-height:210px;object-fit:contain"><h3>Kit Completo +150 Receitas de Batidas</h3><p>+150 receitas de batidas na garrafa prontas para vender + todos os bônus exclusivos para você faturar até R$3.000/mês.</p><strong>🎁 Inclui todos os bônus:</strong><ul><li>✔ Lista de Fornecedores Baratos para Garrafinhas</li><li>✔ Tabela de Precificação Pronta</li><li>✔ Roteiro de Vendas pelo WhatsApp</li><li>✔ Videoaula: Como Embalar e Vender Mais</li></ul><div class="price-old">De R$ 59,90</div><div class="price">R$ 24,90</div><a class="btn gold" href="https://pay.kiwify.com.br/GFRKCvh" target="_blank" rel="noopener">🍹 QUERO O KIT COMPLETO</a><div class="guarantee">✅ Acesso imediato • E-mail + WhatsApp • Garantia de 7 dias</div></article>
+   <article class="plan basic"><h3>50 Receitas de Batidas na Garrafa</h3><p>50 receitas prontas para vender, sem os bônus exclusivos.</p><div class="price-old">De R$ 24,90</div><div class="price">R$ 10,00</div><p>Oferta relâmpago</p><a class="btn" href="https://pay.kiwify.com.br/3BL86Kq" target="_blank" rel="noopener">🤑 Quero Apenas o de R$10!</a><div class="guarantee">Sem bônus • Acesso imediato</div><p style="font-size:12px;color:#ffcf6c;margin-top:14px">Verifique o produto e o valor no checkout antes de concluir a compra.</p></article>
+  </div>
+ </div>
+</section>
+<section>
+ <div class="wrap">
+  <h2 class="section-title">Dúvidas frequentes:</h2>
+  <div class="faq">
+   <details><summary>Preciso saber cozinhar para comprar?</summary><p>Não! As receitas são passo a passo, feitas para quem nunca fez nada parecido. Se você consegue seguir uma receita simples, já consegue produzir e vender.</p></details>
+   <details><summary>Precisa de equipamentos caros ou cozinha profissional?</summary><p>Não! A grande maioria das receitas usa utensílios comuns que já estão na sua cozinha. Nada de investimento alto para começar.</p></details>
+   <details><summary>Onde vou vender as batidas?</summary><p>Pelo WhatsApp, Reels, delivery, porta de casa, feiras, para vizinhos, amigos e família. O bônus de roteiro de vendas te ensina exatamente como fechar os primeiros pedidos.</p></details>
+   <details><summary>Quanto posso cobrar por cada garrafa?</summary><p>Depende da receita e da sua região, mas a maioria das pessoas cobra entre R$15 e R$40 por garrafa, com custo de produção muito baixo. A margem é bem generosa.</p></details>
+   <details><summary>Como recebo após a compra?</summary><p>Você recebe o link de acesso direto no e-mail cadastrado e também pelo WhatsApp — de forma imediata, assim que o pagamento é confirmado.</p></details>
+   <details><summary>Tenho garantia se não gostar?</summary><p>Sim! Você tem 7 dias de garantia incondicional. Se não ficar satisfeita por qualquer motivo, é só enviar uma mensagem e devolvemos 100% do valor pago.</p></details>
+  </div>
+ </div>
+</section>
+<section class="final-cta">
+ <div class="wrap"><h2>⏰ Não fique esperando — cada dia sem vender é dinheiro perdido!</h2><a class="btn" href="#ofertas">🍹 QUERO ACESSO ÀS 150 RECEITAS AGORA</a><p class="access">✅ Acesso imediato · Garantia de 7 dias · Pagamento seguro</p></div>
+</section>
+</main>
+<footer class="footer">© 2026 +150 Receitas de Batidas na Garrafa • Todos os direitos reservados<br>Este produto é um infoproduto digital. Acesso imediato após confirmação do pagamento.</footer>
+<script>
+(function(){let remaining=15*60;const el=document.getElementById('timer');function tick(){const m=String(Math.floor(remaining/60)).padStart(2,'0');const s=String(remaining%60).padStart(2,'0');el.textContent=m+':'+s;if(remaining>0)remaining--;else remaining=15*60;}tick();setInterval(tick,1000);})();
+</script>
+</body>
+</html>
